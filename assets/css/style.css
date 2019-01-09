@@ -1,13 +1,11 @@
 body
 {
     background-color: #ffffff;
-    border: 1px solid #cccccc;
     color: gray;
     text-align: center;
     font-size: 15px;
-    width: 960px;
-    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 header
@@ -16,9 +14,18 @@ header
     border-bottom: 2px solid #cccccc;
 }
 
+main
+{
+    width:960px;
+    margin: 0 auto;
+}
+
 footer
 {
+    border-top: 10px solid #4aaaa5;
     background-color: #666666;
+    padding-top: 40px;
+    padding-bottom: 5px;
 }
 
 button
@@ -27,7 +34,7 @@ button
     color:gray;
     border: transparent;
     float: right;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 20px;
     margin-left: 20px;
     padding-left: 20px;
@@ -39,14 +46,13 @@ button
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: bold;
-    background-color: #4aaaa5;
-    color: #ffffff;
     float: left;
     padding: 20px;
 }
 
 h1
 {
+    background-color: #4aaaa5;
     color: white;
     float: left;
 }
@@ -55,6 +61,28 @@ h2
 {
     color: #4aaaa5;
     float: left;
+    background-color: white;
+}
+
+p
+{
+
+}
+.aboutMe
+{
+    font-size: 15px;
+    line-height: 2;
+    text-align: left;
+}
+
+#firstP
+{
+    float:left;
+}
+
+#secondP
+{
+    clear:both;
 }
 
 .clearfix::after 
@@ -64,9 +92,45 @@ h2
     clear: both;
 }
 
-.images
+img
 {
-    
+    height:300px;
+    width:300px;
+    margin: 20px;
+    object-fit: contain; 
+}
+
+.img1, .img3, .img5
+{
+    clear: both;
+    float: left;
+}
+
+.img2, .img4
+{
+    float: left;
+}
+
+.picOfMe
+{
+    clear: both;
+    float:left;
+}
+
+figure
+{
+    position: relative;
+}
+
+figcaption
+{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    bottom: 30px;
+    width: 76.5%;
 }
 
 .left
