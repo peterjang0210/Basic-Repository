@@ -9,12 +9,6 @@ body
     background-image: url("../images/houndstooth-pattern.png");
 }
 
-header
-{
-    width:960px;
-    margin: 0 auto;
-}
-
 .banner
 {
     position: static;
@@ -25,63 +19,10 @@ header
     box-sizing: border-box;
 }
 
-main
+header
 {
     width:960px;
     margin: 0 auto;
-    background-color: white;
-    margin-top:20px;
-    border: 1px solid #cccccc;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-}
-
-.aboutMe
-{
-    width: 960px;
-    height: 500px;
-}
-.contact
-{
-    width:960px;
-    height:590px;
-}
-
-.portfolio
-{
-    width:960px;
-    height:1150px;
-}
-
-footer
-{
-    border-top: 10px solid #4aaaa5;
-    background-color: #666666;
-    padding-top: 40px;
-    padding-bottom: 5px;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-}
-
-.button
-{
-    background-color: transparent;
-    float: right;
-    color: #777777;
-    font-size: 15px;
-    margin-top: 20px;
-    margin-left: 20px;
-    padding-left: 20px;
-    padding-right: 5px;
-    border-left: 1px solid grey;
-}
-
-a
-{
-    color: #777777;
-    background-color: transparent;
-    text-decoration: none;
 }
 
 .heading
@@ -111,6 +52,140 @@ h2
     margin-bottom: 30px;
     margin-left:10px;
 }
+
+main
+{
+    width:960px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top:20px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.aboutMe
+{
+    width: 960px;
+    height: 500px;
+}
+
+.contact
+{
+    width:960px;
+    height:590px;
+}
+
+.portfolio
+{
+    width:960px;
+    height:1150px;
+}
+
+p
+{
+    clear:both;
+}
+
+.bio
+{
+    font-size: 18px;
+    line-height: 2;
+    text-align: left;
+    padding: 20px;
+}
+
+#firstP
+{
+    float:left;
+}
+
+#secondP
+{
+    padding-top: 20px;
+    clear:both;
+}
+
+footer
+{
+    border-top: 10px solid #4aaaa5;
+    background-color: #666666;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+ul
+{
+    background-color: transparent;
+    float: right;
+    color: #777777;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+    border-left: 1px solid grey;
+}
+
+.left
+{
+    border-color: transparent;
+}
+
+a
+{
+    color: #777777;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.picOfMe
+{
+    clear: both;
+    float:left;
+    height: 150px;
+    width: 250px;
+    margin:10px;
+}
+
+img
+{
+    height:300px;
+    width:300px;
+    margin: 20px;
+    object-fit: contain; 
+}
+
+.img1, .img3, .img5
+{
+    clear: both;
+    float: left;
+}
+
+.img2, .img4
+{
+    float: left;
+}
+
+figure
+{
+    position: relative;
+}
+
+figcaption
+{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    bottom: 30px;
+    width: 76.5%;
+}
+
 
 form
 {
@@ -164,81 +239,9 @@ input
     margin-top:10px;
 }
 
-.bio
-{
-    font-size: 18px;
-    line-height: 2;
-    text-align: left;
-    padding: 20px;
-}
-
-p
-{
-    clear:both;
-}
-#firstP
-{
-    float:left;
-}
-
-#secondP
-{
-    padding-top: 20px;
-    clear:both;
-}
-
 .clearfix::after 
 {
     content: "";
     display: block;
     clear: both;
-}
-
-img
-{
-    height:300px;
-    width:300px;
-    margin: 20px;
-    object-fit: contain; 
-}
-
-.img1, .img3, .img5
-{
-    clear: both;
-    float: left;
-}
-
-.img2, .img4
-{
-    float: left;
-}
-
-.picOfMe
-{
-    clear: both;
-    float:left;
-    height: 150px;
-    width: 250px;
-    margin:10px;
-}
-
-figure
-{
-    position: relative;
-}
-
-figcaption
-{
-    position: absolute;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 20px;
-    margin: 20px;
-    bottom: 30px;
-    width: 76.5%;
-}
-
-.left
-{
-    border-color: transparent;
 }
