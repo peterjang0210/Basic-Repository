@@ -9,33 +9,33 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
-    <main>
-        <header class="clearfix">
+<body background = "./assets/images/houndstooth-pattern.png">
+
+    <header class="clearfix banner">
             <h1 class = "heading">Peter Jang</h1>
     
-            <div>
-                <button class="top">Contact</button>
-                <button class="top">Portfolio</button>
-                <button class="top left">About</button>
-            </div>
-        </header>
-        
-        <h2 class = "heading">Contact</h2>
-        <h3>Name</h3>
-            <p class = "userInput">
-                John Smith
-            </p>   
-        <h3>Email</h3>
-                <p class = "userInput">
-                example@gmail.com
-            </p>
-        <h3>Message</h3>
-            <p class = "userMessage"></p>
-    
-        <button>Submit</button>
-        
+            <div id="button"><a href="./contact.html">Contact</a></div>
+            <div id="button"><a href="./portfolio.html">Portfolio</a></div>
+            <div id="button" class="left"><a href="./index.html">About</a></div>
 
+        </header>
+    <main class="contact">
+        <h2 class = "heading">Contact</h2>
+        
+        <form>
+            <p class="name">Name</p>
+            <textarea placeholder="John Smith" cols="30" rows="1"></textarea>
+            
+            <p class="email">Email</p>    
+            <textarea placeholder="example@gmail.com" cols="30" rows="1"></textarea>
+            
+            <p class="messageTitle">Message</p>
+            <textarea class="message">
+            </textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    
     </main>
     <footer>
         Copyright ©
